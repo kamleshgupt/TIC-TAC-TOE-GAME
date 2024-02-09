@@ -1,0 +1,69 @@
+ *{
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.background{
+    height: 100vh;
+    background: coral;
+    padding-top: 1px;
+}
+.display {
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+.hide {
+    display: none;
+}
+.container {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 33% 33% 33%;
+    max-width: 300px;
+}
+.title{
+    color: white;
+    text-align: center;
+    font-size: 34px;
+    padding-top: 50px;
+}
+.tile{
+    border: 1px solid white;
+    min-width: 100px;
+    min-height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    cursor: pointer;
+}
+.playerX {
+    color: blueviolet;
+}
+.playerO {
+    color:yellow;
+}
+.controls{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1em;
+}
+#reset{
+    background-color: #004225;
+    color: white;
+    padding: 14px;
+    border-radius: 8px;
+    border: none;
+    font-size: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+#reset:hover{
+    background-color: #07824c;
+} 
